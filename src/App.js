@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <h1>Portfolio</h1>
       <form className="form card">
         <div className="card_header">
           <svg
