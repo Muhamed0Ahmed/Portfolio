@@ -1,4 +1,6 @@
-function Header() {
+function Header(props) {
+  let {setPage} = props;
+  // console.log(setPage)  
   return (
     <div className="navbar navbar-expand-md navbar-light bg-ligh">
       <div className="container-fluid d-flex justify-content-between">
@@ -19,34 +21,35 @@ function Header() {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
+              <span className="nav-link active" aria-current="page" onClick={() => setPage("Home")}>
                 Home
-              </a>
+              </span>
             </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="about">
+            <li className="nav-item" >
+              <span className="nav-link active" aria-current="page" onClick={() => setPage("About")}>
                 About
-              </a>
+              </span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/skills">
+              <span className="nav-link" onClick={ () => setPage("Skills")}>
                 Skills
-              </a>
-            </li>
+                </span>
+                </li>
+            
             <li className="nav-item">
-              <a className="nav-link" href="/experiece">
+              <span className="nav-link" onClick={() => setPage("Experience")}>
                 Experience
-              </a>
+              </span>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="contact">
-                Contact me
-              </a>
+              <span className="nav-link active" aria-current="page" onClick={() => setPage("Projects")}>
+                Projects
+              </span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="home">
+              <span className="nav-link" href="home">
                 Link
-              </a>
+              </span>
             </li>
             
            
