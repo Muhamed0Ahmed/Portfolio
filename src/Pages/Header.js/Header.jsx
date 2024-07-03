@@ -1,13 +1,15 @@
-function Header(props) {
-  let {setPage} = props;
+import "./Header.css"
+
+function Header() {
+  // let {setPage} = props;
   // console.log(setPage)  
   return (
-    <div className="navbar navbar-expand-md navbar-light bg-ligh">
-      <div className="container-fluid d-flex justify-content-between">
+    <div className="navbar navbar-expand-md navbar-dark bg-dark">
+      <div className="container-fluid ">
         <a href="#Home" className="navbar-brand">
           Portfolio
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -17,8 +19,8 @@ function Header(props) {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse " id="navbarSupportedContent">
+        </button> */}
+        {/* <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <span className="nav-link active" aria-current="page" onClick={() => setPage("Home")}>
@@ -54,7 +56,7 @@ function Header(props) {
             
            
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

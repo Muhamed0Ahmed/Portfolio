@@ -1,0 +1,94 @@
+.cube-animate {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+.cube-animate .cube {
+  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* transform :  rotate3d(30deg); */
+  animation: cubeSlow 5s infinite;
+}
+.cube-animate .cube .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+.cube-animate .cube .face.front {
+  transform: rotateX(0deg) translatez(100px);
+}
+.cube-animate .cube .face.back {
+  transform: rotateX(0deg) rotatey(180deg) translatez(100px);
+}
+.cube-animate .cube .face.right {
+  transform: rotatey(90deg) translatez(100px);
+}
+.cube-animate .cube .face.left {
+  transform: rotatey(270deg) translatez(100px);
+}
+.cube-animate .cube .face.top {
+  transform: rotatex(90deg) translateZ(100px);
+}
+.cube-animate .cube .face.bottom {
+  transform: rotatex(270deg) translateZ(100px);
+}
+.cube-animate .cube .face.css svg,
+.cube-animate .cube .face.css h2 {
+  color: #264de4;
+}
+.cube-animate .cube .face.html svg,
+.cube-animate .cube .face.html h2 {
+  color: #e34c26;
+}
+.cube-animate .cube .face.js svg,
+.cube-animate .cube .face.js h2 {
+  color: #f0db4a;
+}
+.cube-animate .cube .face.react svg,
+.cube-animate .cube .face.react h2 {
+  color: #61dbfb;
+}
+.cube-animate .cube .face.bootstrap svg,
+.cube-animate .cube .face.bootstrap h2 {
+  color: #653d7c;
+}
+.cube-animate .cube .face.git svg,
+.cube-animate .cube .face.git h2 {
+  color: #6e5494;
+}
+.cube-animate .cube .face svg {
+  font-size: 70px;
+  text-align: center;
+}
+@keyframes cubeSlow {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  17% {
+    transform: rotateX(90deg) rotateY(0deg);
+  }
+  33% {
+    transform: rotateX(0deg) rotateY(-90deg);
+  }
+
+  50% {
+    transform: rotateX(-90deg) rotateY(0deg);
+  }
+  67% {
+    transform: rotateX(0deg) rotateY(90deg);
+  }
+  83% {
+    transform: rotateX(0deg) rotateY(270deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+}

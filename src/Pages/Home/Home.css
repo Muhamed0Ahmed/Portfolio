@@ -1,0 +1,28 @@
+.section{
+    min-height:calc(100vh - 80px);
+    background-image: linear-gradient(var(--bkg-clr-dark), var(--bkg-clr-light));
+}
+
+/* styles for home section */
+.home-section {
+  background-image: linear-gradient(var(--bkg-clr-dark), var(--bkg-clr-light));
+}
+
+ h1{
+    color:var(--light-clr)
+ }
+
+
+ /* styles for skills section */
+ .skills-section,.projects-section,.about-section{
+  background-color:rgb(240, 240, 240);
+  padding:20px
+ }
+
+ /* styles for services section */
+.services-section , .projects-section{
+  background-image: linear-gradient(var(--bkg-clr-dark), var(--bkg-clr-light));
+}
+.card .card-body h3{
+  color:var(--bkg-clr-dark)
+}

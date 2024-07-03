@@ -1,0 +1,61 @@
+:root{
+    --bkg-clr-light:#00C0C8;
+    --bkg-clr-dark:#056681;
+    --white-clr:#fff;
+    --light-clr: #57E4FF
+}
+html{
+    font-size:16px;
+
+}
+body{
+    font-size:1rem;
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    body {
+      font-size: 20px;
+    }
+  }
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size:1.72rem;
+}
+h4{
+    font-size: 1.75rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1.25rem;
+}
+
+
+
+ul{
+    list-style: none;
+
+}
+li{
+    margin:0;
+}
+
+.section-height{
+    height:calc(100vh - 80px);
+}

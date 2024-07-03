@@ -1,0 +1,23 @@
+/* skill component */
+
+/* HeaderSection component */
+h1{
+    position:relative
+}
+h1.head-sec span{
+  position: relative;
+  letter-spacing: 3 px;
+  color: var(--light-clr);
+}
+h1.head-sec span.subTitle {
+  position: absolute;
+  color: var(--bkg-clr-dark);
+  /* background-color: black; */
+  font-size: 16px;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.skill-sec h3{
+    color:var(--bkg-clr-dark)
+}
