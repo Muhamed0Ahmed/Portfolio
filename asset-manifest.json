@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
-    "main.js": "/portfolio/static/js/main.366a71c7.js",
+    "main.css": "/portfolio/static/css/main.4df77ff6.css",
+    "main.js": "/portfolio/static/js/main.a4b579f9.js",
+    "static/css/447.e9159889.chunk.css": "/portfolio/static/css/447.e9159889.chunk.css",
+    "static/js/447.0b82974a.chunk.js": "/portfolio/static/js/447.0b82974a.chunk.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/TroyLap.png": "/portfolio/static/media/TroyLap.d73856fdddfb757bd502.png",
+    "static/media/X-O_GAME.png": "/portfolio/static/media/X-O_GAME.f42c9f625f8aff811b3b.png",
+    "static/media/portffolio1-1.png": "/portfolio/static/media/portffolio1-1.4e31796234c568f18fab.png",
+    "static/media/portfoli1.png": "/portfolio/static/media/portfoli1.91f674d09c205c4aeb77.png",
     "index.html": "/portfolio/index.html",
-    "main.366a71c7.js.map": "/portfolio/static/js/main.366a71c7.js.map",
+    "main.4df77ff6.css.map": "/portfolio/static/css/main.4df77ff6.css.map",
+    "main.a4b579f9.js.map": "/portfolio/static/js/main.a4b579f9.js.map",
+    "447.e9159889.chunk.css.map": "/portfolio/static/css/447.e9159889.chunk.css.map",
+    "447.0b82974a.chunk.js.map": "/portfolio/static/js/447.0b82974a.chunk.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.366a71c7.js"
+    "static/css/main.4df77ff6.css",
+    "static/js/main.a4b579f9.js"
   ]
 }
